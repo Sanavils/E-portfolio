@@ -362,3 +362,57 @@ a{
 
 }
     
+
+
+
+
+/* OKANE PAGE*/
+
+
+.Pres{
+    margin-top: 100px;
+    padding: 0px 16vw;
+}
+
+
+.image-portfolio{
+    display: flex;
+    justify-content: center;
+}
+
+.image-portfolio img{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.Pres .H1{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+ 
+.lien-projet{
+    text-decoration:underline;
+    letter-spacing: 0.03em;
+    font-size: min(6dvw, 20px);
+    line-height: 1.05;
+    font-family: 'Neue Montreal';
+    font-weight: bold;
+
+}
+
+.images-maquette {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.images-maquette img {
+    width: 32%;
+    margin-bottom: 20px;
+}
+
+.images-affiche img {
+    width: 100%;
+    margin-bottom: 20px;
+}
