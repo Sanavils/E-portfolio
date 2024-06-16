@@ -1,13 +1,29 @@
-body{
-    background-color: rgb(9, 9, 9);
-    color: #FFFFFF;
-  }
+@font-face {
+    font-family: Designer;
+    src: url(font/Designer.otf);
+}
+
+@font-face {
+    font-family: Horizon;
+    src: url(font/Horizon.otf);
+}
+
+@font-face {
+    font-family: Neue Montreal;
+    src: url(font/NeueMontreal-Medium.otf);
+}
 
 *{
     padding: 0;
     margin: 0;
     scroll-behavior:smooth;
 }
+
+body{
+    background-color: rgb(9, 9, 9);
+    color: #FFFFFF;
+}
+
 
 ::-webkit-scrollbar {
     display: none;
